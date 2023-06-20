@@ -5,7 +5,7 @@ import HomeView from '@/views/HomeView.vue'
 import HtmlTest from '@/views/html/HtmlTest.vue'
 
 /*
-import vue파일명 from '@(src)/파일경로' 
+import 'vue파일명' from '@(src)/파일경로' 
 위 형식으로 router설정을 해줘야한다.
 */
 
