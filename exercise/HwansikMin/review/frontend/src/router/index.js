@@ -3,7 +3,7 @@ import VueRouter from 'vue-router'
 // @는 현재 src 폴더를 의미함.
 import HomeView from '@/views/HomeView.vue'
 import HtmlTest from '@/views/html/HtmlTest.vue'
-
+import CssTest from '@/views/css/CssTest.vue'
 /*
 import 'vue파일명' from '@(src)/파일경로' 
 위 형식으로 router설정을 해줘야한다.
@@ -29,6 +29,11 @@ const routes = [
     path: '/htmlTest',
     name: 'HtmlTest',
     component: HtmlTest
+  },
+  {
+    path: '/cssTest',
+    name: 'CssTest',
+    component: CssTest
   }
 ]
 
