@@ -7,6 +7,16 @@ import CssTest from '@/views/css/CssTest.vue'
 /*
 import 'vue파일명' from '@(src)/파일경로' 
 위 형식으로 router설정을 해줘야한다.
+App.vue에 <router-link to="/abcde">Abcde</router-link>
+router/index.js에 import Abcde from '@/view/(파일경로)'를 쓰고
+밑에 부분에 다음과 같이 path, name, component 요소를 넣어줘야한다.
+const routes = [
+  {
+    path: '/abcde'
+    name: 'Abcde'
+    component: Abcde
+  }
+]
 */
 
 Vue.use(VueRouter)
