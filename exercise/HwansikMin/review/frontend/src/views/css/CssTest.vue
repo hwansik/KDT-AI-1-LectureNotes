@@ -11,6 +11,7 @@
             <h1>Test id</h1>
             <h2 class="accent">Accent Test</h2>
             <p>안녕! <span class="browntext">밤색이닷!</span></p>
+            <p class="ns-font">한글 폰트 테스트 - 밤색이닷!</p>
         </div>
     </div>
 </template>
@@ -50,6 +51,13 @@ export default {
     }
     .browntext {
         color: brown;
+    }
+    /* 폰트 적용_CSS 폰트 적용하기 [CSS-FONT] #483
+        https://fonts.google.com/noto/specimen/Noto+Sans+KR */
+    @import url ('http://fonts.googleapis.xom/css2?family=Noto+Sans+KR:wght@900&display=swap');
+    p.ns-font {
+        font-family: 'Noto Sans KR', sans-serif;
+        font-size: 30px;
     }
 </style>
 <!--
