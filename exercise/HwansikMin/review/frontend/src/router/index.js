@@ -4,6 +4,9 @@ import VueRouter from 'vue-router'
 import HomeView from '@/views/HomeView.vue'
 import HtmlTest from '@/views/html/HtmlTest.vue'
 import CssTest from '@/views/css/CssTest.vue'
+import VueDataBindingPage from '@/views/basics/binding/VueDataBindingPage'
+import VueClickEventPage from '@/views/basics/event/VueClickEventPage'
+import VueInputEventPage from '@/views/basics/event/VueInputEventPage.vue'
 /*
 import 'vue파일명' from '@(src)/파일경로' 
 위 형식으로 router설정을 해줘야한다.
@@ -44,7 +47,22 @@ const routes = [
     path: '/cssTest',
     name: 'CssTest',
     component: CssTest
-  }
+  },
+  {
+    path: '/vue-data-binding-page',
+    name: '/VueDataBindingPage',
+    component: VueDataBindingPage
+  },
+  {
+    path: '/vue-click-event-page',
+    name: '/VueClickEventPage',
+    component: VueClickEventPage
+  },
+  {
+    path: '/vue-input-event-page',
+    name: '/VueInputEventPage',
+    component: VueInputEventPage
+  },
 ]
 
 const router = new VueRouter({

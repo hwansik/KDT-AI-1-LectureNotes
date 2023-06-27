@@ -4,9 +4,10 @@
       <router-link to="/">Home</router-link> |
       <router-link to="/about">About</router-link> |
       <!--
-        | 는 메뉴별 구분을 위한 기호
-        to는 URL 입력 경로, 이 URL 설정을 위해서는 router/index.js에
-        등록이 필요하다고 보면 되는건가?
+        | 는 메뉴별 구분을 위한 기호,  to는 URL 경로를 입력, 
+        이 URL 설정을 위해서는 App.vue, router/index.js에
+        등록이 필요하다고 보면 되는 것 같다.
+        view 폴더는 어떻게 보이게 만들지 코딩을 통해 생성.
       -->
       <!--
         router-link 파트는 UI엔진인 Vue에서 경로를 지정하고
@@ -17,6 +18,9 @@
       -->
       <router-link to="/htmlTest">HtmlTest</router-link> |
       <router-link to="/cssTest">cssTest</router-link> |
+      <router-link to="/vue-data-binding-page">VueDataBindingPage</router-link> |
+      <router-link to="/vue-click-event-page">VueClickEventPage</router-link> |
+      <router-link to="/vue-input-event-page">VueInputEventPage</router-link> |
     </nav>
     <router-view/>
   </div>

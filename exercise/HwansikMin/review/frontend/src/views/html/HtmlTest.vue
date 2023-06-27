@@ -38,7 +38,8 @@
             <li>Deep Learning</li>
             <li>Distribution Server</li>
         </ul>
-
+        <!-- 중간에 사라져서 잠깐 오류가 나타났다 했는데, 
+            localhost:8080/htmlTest에 앞머리 영어기호 abcdef... 가 안뜬다.-->
         <ul style="text-align: left;">
             <li>Vue
                 <ol type="a" start="3">
@@ -72,7 +73,7 @@
                 </ol>
             </li>
             <li>Hexagonal Architecture
-                <ol>
+                <ol type="a">
                     <li>Hexagonal Architecture</li>
                     <li>Domain Hexagon</li>
                 </ol>
